@@ -2,13 +2,21 @@ package calculator
 
 object TweetLength {
   final val MaxTweetLength = 140
+  val tweetLengthRemain = Var(0)
+  val tweetColor = Var("green")
 
   def tweetRemainingCharsCount(tweetText: Signal[String]): Signal[Int] = {
-    ???
+    tweetLengthRemain.update(MaxTweetLength - tweetLength(tweetText()))
+    tweetLengthRemain
   }
 
   def colorForRemainingCharsCount(remainingCharsCount: Signal[Int]): Signal[String] = {
-    ???
+      tweetColor.update( remainingCharsCount() match {
+        case x: Int if x >= 15 => "green"
+        case x: Int if x < 15 && x > 0 => "orange"
+        case _ => "red"
+      } )
+    tweetColor
   }
 
   /** Computes the length of a tweet, given its text string.
@@ -22,10 +30,11 @@ object TweetLength {
     /* This should be simply text.codePointCount(0, text.length), but it
      * is not implemented in Scala.js 0.6.2.
      */
-    if (text.isEmpty) 0
-    else {
-      text.length - text.init.zip(text.tail).count(
-          (Character.isSurrogatePair _).tupled)
-    }
+    text.codePointCount(0, text.length)
+//    if (text.isEmpty) 0
+//    else {
+//      text.length - text.init.zip(text.tail).count(
+//          (Character.isSurrogatePair _).tupled)
+//    }
   }
 }
