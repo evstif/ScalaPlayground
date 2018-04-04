@@ -5,14 +5,7 @@
     <option name="customLauncherPath" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
-        <option name="sbtVersion" value="1.1.1" />
+        <option name="externalProjectPath" value="D:\proving_ground\coursera\scala\parallel\week2\test1" />
       </SbtProjectSettings>
     </option>
   </component>
