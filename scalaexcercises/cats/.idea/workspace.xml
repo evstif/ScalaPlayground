@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8d6365-b6f3-468a-a23b-1f9f407cb4cd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/modules/test1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/scala_compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/src/main/scala/reduceParallel.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/cats.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/test1.sc" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_typelevel_cats_core_2_12_1_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_typelevel_cats_kernel_2_12_1_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_typelevel_cats_macros_2_12_1_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/modules/cats-build.iml" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/modules/test1-build.iml" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/modules/cats.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/sbt.xml" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/scala_compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/build.sbt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../basics2/Cats/project/build.properties" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/functor.sc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/monoid.sc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/semigroup.sc" />
+      <change beforePath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../parallel/week2/test1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/test1.sc" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,11 +44,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/test1.sc">
+      <file leaf-file-name="semigroup.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/semigroup.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+              <folding>
+                <marker date="1522926232252" expanded="true" signature="46:47" ph="..." />
+                <marker date="1522926232252" expanded="true" signature="47:729" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monoid.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/monoid.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functor.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/functor.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predef.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar!/scala/Predef.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -98,12 +109,15 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/test1.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/semigroup.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/monoid.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/functor.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="40" />
+    <option name="x" value="299" />
+    <option name="y" value="16" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -145,6 +159,13 @@
               <item name="cats" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cats" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +304,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -294,7 +315,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19001701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -323,10 +344,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test1.sc">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar!/scala/Predef.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="216">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/semigroup.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <marker date="1522926232252" expanded="true" signature="46:47" ph="..." />
+            <marker date="1522926232252" expanded="true" signature="47:729" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/monoid.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/functor.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding />
         </state>
       </provider>
